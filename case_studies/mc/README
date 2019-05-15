@@ -1,0 +1,32 @@
+/*
+ * Hello World of Computational Finance
+ *
+ * Algorithmic Differentiation (AD) by Overloading
+ * in C++ for SDE-based European Option Pricing 
+ * by Monte-Carlo Sampling; Using AD Tool dco/c++
+ *
+ * Copyright: Uwe Naumann and Jacques du Toit
+ * Aachen, Germany, and Manchester, UK, 2014
+ *
+ */
+
+Contents:
+
+primal : option pricer
+cfd : gradient by central finite differences
+t1s : gradient in tangent 1st-order scalar mode
+a1s : gradient in adjoint 1st-order scalar mode
+a1s_ensemble : gradient in adjoint 1st-order scalar mode with ensemble checkpointing
+socfd : Hessian by 2nd-order central finite differences
+t2s_t1s : Hessian in 2nd-order tangent mode
+t2s_a1s : Hessian in 2nd-order adjoint mode (tangent of adjoint)
+t2s_a1s_ensemble : Hessian in 2nd-order adjoint mode (tangent of adjoint with ensemble checkpointing) 
+
+Scenarios:
+
+scenario_1.in: n=10 (n-4 Pade coefficients)
+scenario_2.in: n=22
+scenario_3.in: n=34
+scenario_4.in: n=62
+scenario_5.in: n=142
+scenario_6.in: n=222

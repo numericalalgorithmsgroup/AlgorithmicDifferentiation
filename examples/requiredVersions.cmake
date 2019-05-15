@@ -1,0 +1,15 @@
+dco_get_subdirs(. subdirs)
+foreach(dir ${subdirs})
+  set(requiredVersion.${dir} 3.2)
+endforeach()
+
+set(requiredVersion.ga1s_mod 3.3)
+set(requiredVersion.sparse_interpret 3.3)
+
+set(requiredVersion.gbcp 3.4)
+set(requiredVersion.gv 3.4)
+set(requiredVersion.gv_ga1s 3.4)
+set(requiredVersion.gv_gt1s 3.4)
+set(requiredVersion.gv_mask 3.4)
+set(requiredVersion.gv_ga1s_mask 3.4)
+set(requiredVersion.gv_gt1s_mask 3.4)
